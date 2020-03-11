@@ -5,6 +5,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+                echo "sampath kumar build stage machha"
+                bat " hahahahahhahah"
                 sh 'npm install'
             }
         }
